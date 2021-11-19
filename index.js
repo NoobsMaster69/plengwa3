@@ -3724,7 +3724,7 @@ break
 					fs.unlinkSync(mediaa)
 					if (err) return reply('Yah gagal, coba ulangi ^_^')
 					buffer = fs.readFileSync(ran)
-					fakethumb(buffer,'```Nih kak, jgn lupa Support YT : ZEEONE OFC```')
+					fakethumb(buffer,'```Nih Bang, jgn lupa Kunjungi Database kami : drivetkj.xyz```')
 					fs.unlinkSync(ran)
 					})
 					break
