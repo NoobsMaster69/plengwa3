@@ -3899,7 +3899,7 @@ break
             if(!q) return reply('Masukkan query')
             pinya = q
             anu = await getBuffer(`https://ferdiz-afk.my.id//api/pinterest?q=${pinya}`)
-            alpha.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0), caption: `${lang.success()}\n\nPlease Subscribe https://youtu.be/P6u0xroWJmI`, quoted: mek})
+            alpha.sendMessage(from, anu, image, {thumbnail: Buffer.alloc(0), caption: `${lang.success()}\n\nJangan Lupa Kunjungi DB Kami https://drivetkj.xyz/0:/`, quoted: mek})
             break
     case 'playstore':
             if(!q) return reply('lu nyari apa?')
