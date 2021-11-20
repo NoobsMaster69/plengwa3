@@ -2377,7 +2377,7 @@ break
 											},
 										"type": "RESPONSE"
 										}]
-								sendButLocation(from, allmenu(prefix, wita, wit, ucapannya2 , timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat), `NOTE ！\nJangan Lupa Kunjungi Database Kami https://drivetkj.xyz/0:/\n\n${botname}™© | By ${ownername}`,pp_userz, papao, {})
+								sendButLocation(from, allmenu(prefix, wita, wit, ucapannya2 , timuu, status, wa_version, mcc, mnc, os_version, device_manufacturer, device_model, alfa , alfa1, thisDay, ini_tanggal, totalchat, hit_today, ini_gcchat), `NOTE ！\nJika whatsapp mod kamu belum support button silahkan tonton video ini https://youtu.be/ERGID4Fmo9w\n\n${botname}™© | By ${ownername}`,pp_userz, papao, {})
                 break
         case 'trigger':
 					var imgbb = require('imgbb-uploader')
@@ -4605,7 +4605,7 @@ break*/
                    F = q
                    reply(lang.wait())
                    tahta = await getBuffer(`${ApiZeks}/api/hartatahta?text=${F}&apikey=${zeksApikey}`)
-                   tahtah = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   tahtah = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(tahta, tahtah, sender)
                   break
        case 'neon2':  
@@ -4613,7 +4613,7 @@ break*/
                    F = q
                    reply(lang.wait())
                    neon2 = await getBuffer(`${ApiZeks}/api/bneon?apikey=${zeksApikey}&text=${F}`)
-                   neon2p = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   neon2p = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(neon2, neon2p, sender)
                    break                    
        case 'wall':  
@@ -4621,7 +4621,7 @@ break*/
                    F = q
                    reply(lang.wait())
                    wall = await getBuffer(`${ApiZeks}/api/breakwall?apikey=${zeksApikey}&text=${F}`)
-                   wallp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   wallp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(wall, wallp, sender)
                    break   
        case 'wolf':  
@@ -4631,7 +4631,7 @@ break*/
 				   var F2 = F.split("|")[1]; 
                    reply(lang.wait())
                    wolf = await getBuffer(`${ApiZeks}/api/wolflogo?apikey=${zeksApikey}&text1=${F1}&text2=${F2}`)
-                   wolfp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   wolfp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(wolf, wolfp, sender)
                    break   
        case 'tfire':  
@@ -4639,7 +4639,7 @@ break*/
                    F = q
                    reply(lang.wait())
                    tfire = await getBuffer(`${ApiZeks}/api/tfire?text=${F}&apikey=${zeksApikey}`)                   
-                   tfirep = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   tfirep = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(tfire, tfirep, sender)
                    break  
        case 'ytgold':  
@@ -4647,7 +4647,7 @@ break*/
                    F = q
                    reply(lang.wait())
                    ytgold = await getBuffer(`${ApiZeks}/api/gplaybutton?text=${F}&apikey=${zeksApikey}`)
-                   ytgoldp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   ytgoldp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(ytgold, ytgoldp, sender)
                    break  
        case 'ytsilver':  
@@ -4655,7 +4655,7 @@ break*/
                    F = q
                    reply(lang.wait())
                    ytsilver = await getBuffer(`${ApiZeks}/api/splaybutton?text=${F}&apikey=${zeksApikey}`)
-                   ytsilverp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   ytsilverp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(ytsilver, ytsilverp, sender)
                    break  
        case 't3d':  
@@ -4663,7 +4663,7 @@ break*/
                    F = q
                    reply(lang.wait())
                    t3d = await getBuffer(`${ApiZeks}/api/text3dbox?apikey=${zeksApikey}&text=${F}`)
-                   t3dp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   t3dp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(t3d, t3dp, sender)
                    break  
        case 'logoa':  
@@ -4673,7 +4673,7 @@ break*/
 				   var F2 = F.split("|")[1]; 
                    reply(lang.wait())
                    logoa = await getBuffer(`${ApiZeks}/api/logoaveng?text1=${F1}&text2=${F2}&apikey=${zeksApikey}`)
-                   logoap = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   logoap = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(logoa, logoap, sender)
                    break  
        case 'pornhub':  
@@ -4683,7 +4683,7 @@ break*/
 				   var F2 = F.split("|")[1]; 
                    reply(lang.wait())
                    pornhub = await getBuffer(`${ApiZeks}/api/phlogo?text1=${F1}&text2=${F2}&apikey=${zeksApikey}`)
-                   pornhubp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   pornhubp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(pornhub, pornhubp, sender)
                    break  
        case 'marvel':  
@@ -4693,7 +4693,7 @@ break*/
 				   var F2 = F.split("|")[1]; 
                    reply(lang.wait())
                    marvel = await getBuffer(`${ApiZeks}/api/marvellogo?text1=${F1}&text2=${F2}&apikey=${zeksApikey}`)
-                   marvelp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   marvelp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(marvel, marvelp, sender)
                    break  
        case 'leavest':  
@@ -4701,7 +4701,7 @@ break*/
                    F = q
                    reply(lang.wait())
                    leavest = await getBuffer(`${ApiZeks}/api/leavest?text=${F}&apikey=${zeksApikey}`)
-                   leavestp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   leavestp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(leavest, leavestp, sender)
                    break  
        case 'phcoment':  
@@ -4711,42 +4711,42 @@ break*/
 				   var F2 = F.split("|")[1]; 
                    reply(lang.wait())
                    phcoment = await getBuffer(`${ApiZeks}/api/phub?apikey=${zeksApikey}&img=https://1.bp.blogspot.com/-x8KhcOBG-yw/XiU4pi1yWVI/AAAAAAAADBA/gK8tsLyc1lQ808A348IKzDCjf6fUBKONwCLcBGAsYHQ/s1600/cara%2Bbuat%2Bfoto%2Bprofil%2Bdi%2Bwhatsapp%2Bmenjadi%2Bunik.jpg&username=${F1}&msg=${F2}`)
-                   phcomentp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+                   phcomentp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(phcoment, phcomentp, sender)
                    break  
          case 'naruto': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					naruto = args.join(' ')
 					narutop = await getBuffer(`${ApiZeks}/api/naruto?text=${naruto}&apikey=${zeksApikey}`, {method: 'get'})
-					narutopp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					narutopp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(narutop, narutopp, sender)
                    break  
 		case 'blueneon': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					blueneon = args.join(' ')
 					blueneonp = await getBuffer(`${ApiZeks}/api/bneon?apikey=${zeksApikey}&text=${blueneon}`)
-					blueneonpp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					blueneonpp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(blueneonp, blueneonpp, sender)
                    break  
 		case 'matrix': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					matrix = args.join(' ')
 					matrixp = await getBuffer(`${ApiZeks}/api/matrix?apikey=${zeksApikey}&text=${matrix}`)
-					matrixpp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					matrixpp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(matrixp, matrixpp, sender)
                    break  
 		case 'greenneon': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					greenneon = args.join(' ')
 					greenneonp = await getBuffer(`${ApiZeks}/api/gneon?apikey=${zeksApikey}&text=${greenneon}`)
-					greenneonpp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					greenneonpp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(greenneonp, greenneonpp, sender)
                    break  
 					case 'dropwater': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					dropwater = args.join(' ')
 					dropwaterp = await getBuffer(`${ApiZeks}/api/dropwater?apikey=${zeksApikey}&text=${dropwater}`)
-					dropwaterpp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					dropwaterpp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(dropwaterp, dropwaterpp, sender)
                    break  
 					case 'wolflogo': 
@@ -4755,49 +4755,49 @@ break*/
 					wolf = wolflogo.split("|")[0];
 					logo = wolflogo.split("|")[1];
 					wolflogop = await getBuffer(`${ApiZeks}/api/wolflogo?apikey=${zeksApikey}&text1=${wolf}&text2=${logo}`)
-					wolflogopp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					wolflogopp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(wolflogop, wolflogopp, sender)
                    break  
 					case 'flowertext': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					flowertext = args.join(' ')
 					flowertextp = await getBuffer(`${ApiZeks}/api/flowertext?text=${flowertext}&apikey=${zeksApikey}`)
-					flowertextpp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					flowertextpp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(flowertextp, flowertextpp, sender)
                    break  
 					case 'crosslogo': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					crosslogo = args.join(' ')
 					crosslogop = await getBuffer(`${ApiZeks}/api/crosslogo?text=${crosslogo}&apikey=${zeksApikey}`)
-					crosslogopp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					crosslogopp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(crosslogop, crosslogopp, sender)
                    break  
 					case 'silktext': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					silktext = args.join(' ')
 					silktextp = await getBuffer(`${ApiZeks}/api/silktext?text=${silktext}&apikey=${zeksApikey}`, {method: 'get'})
-					silktextpp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					silktextpp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(silktextp, silktextpp, sender)
                    break  
 					case 'flametext': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					flametext = args.join(' ')
 					flametextp = await getBuffer(`${ApiZeks}/api/flametext?text=${flametext}&apikey=${zeksApikey}`, {method: 'get'})
-					flametextpp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					flametextpp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(flametextp, flametextpp, sender)
                    break  
 					case 'glowtext': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					glowtext = args.join(' ')
 					glowtextp = await getBuffer(`${ApiZeks}/api/glowtext?text=${glowtext}&apikey=${zeksApikey}`, {method: 'get'})
-					glowtextpp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					glowtextpp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(glowtextp, glowtextpp, sender)
                    break  
 					case 'smoketext': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					smoketext = args.join(' ')
 					smoketextp = await getBuffer(`${ApiZeks}/api/smoketext?text=${smoketext}&apikey=${zeksApikey}`, {method: 'get'})
-					smoketextpp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					smoketextpp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(smoketextp, smoketextpp, sender)
                    break  
 					case 'pubglogo': 
@@ -4806,21 +4806,21 @@ break*/
 					wolf = pubglogo.split("|")[0];
 					logo = pubglogo.split("|")[1];
 					pubglogop = await getBuffer(`${ApiZeks}/api/pubglogo?text1=${wolf}&text2=${logo}&apikey=${zeksApikey}`, {method: 'get'})
-					pubglogopp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					pubglogopp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(pubglogop, pubglogopp, sender)
                    break  
 					case 'skytext': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					skytext = args.join(' ')
 					skytextp = await getBuffer(`${ApiZeks}/api/skytext?text=${skytext}&apikey=${zeksApikey}`, {method: 'get'})
-					skytextpp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					skytextpp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(skytextp, skytextpp, sender)
                    break  
 					case 'cslogo': 
 					if (args.length < 1) return reply(lang.noteks(prefix, command))
 					cslogo = args.join(' ')
 					cslogop = await getBuffer(`${ApiZeks}/api/cslogo?text=${cslogo}&apikey=${zeksApikey}`, {method: 'get'})
-					cslogopp = `${lang.success()}\n\nPlease Subscribe https://youtu.be/w4iQ4rwA0mo`
+					cslogopp = `${lang.success()}\n\nJangan Lupa Kunjungi Database Kami : https://drivetkj.xyz/0:/`
                    sendImageMaker(cslogop, cslogopp, sender)
                    break  
 		case 'nulis':
@@ -6124,7 +6124,7 @@ break
 					for (let i of ini_ownerNumber) {
 					const vname_ = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
-					"displayName": 'Owner Kampleng Bot',
+					"displayName": 'Owner Kamplengbot',
 					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
@@ -6169,7 +6169,7 @@ if (subscribezeeoneofc == "ownerku"){
 					for (let i of ini_ownerNumber) {
 					const vname_ = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
-					"displayName": 'Owner Kampleng Bot',
+					"displayName": 'Owner Alphabot',
 					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname_ ? `${vname_}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
