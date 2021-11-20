@@ -672,7 +672,7 @@ ${petik}│◦ ${prefix}rikagusriani
 │
 └─❑「 MENU BOT 」
 
-❏───「 *ALPHA BOT* 」───❏
+❏───「 *Kampleng Bot* 」───❏
 `
 }
 
